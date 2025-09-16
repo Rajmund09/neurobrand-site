@@ -28,9 +28,9 @@ init()
 
 var crsr = document.querySelector(".cursor")
 var main = document.querySelector(".main")
-document.addEventListener("mousemove",function(dets){
-    crsr.style.left = dets.x + 10+"px"
-    crsr.style.top = dets.y +10+"px"
+document.addEventListener("mousemove", function (dets) {
+    crsr.style.left = dets.x + 10 + "px"
+    crsr.style.top = dets.y + 10 + "px"
 })
 
 gsap.from(".page1 h1,.page1 h2", {
@@ -87,8 +87,8 @@ tl3.to(".main", {
 
 // Handle image preview on hover for boxes
 var boxes = document.querySelectorAll(".box");
-boxes.forEach(function(elem) {
-    elem.addEventListener("mouseenter", function() {
+boxes.forEach(function (elem) {
+    elem.addEventListener("mouseenter", function () {
         var att = elem.getAttribute("haha-img");
         crsr.style.width = "470px";
         crsr.style.height = "360px";
@@ -96,7 +96,7 @@ boxes.forEach(function(elem) {
         crsr.style.backgroundImage = `url(${att})`;
     });
 
-    elem.addEventListener("mouseleave", function() {
+    elem.addEventListener("mouseleave", function () {
         crsr.style.width = "15px";
         crsr.style.height = "15px";
         crsr.style.borderRadius = "50%";
