@@ -575,6 +575,7 @@ footer .round {
     width: 95%;
   }
 }
+
 /* Hide icons by default */
 .nav-icon {
   display: none;
@@ -590,7 +591,8 @@ footer .round {
 
 .nav-text:hover,
 .nav-icon:hover {
-  color: #ff6347; /* nice hover color */
+  color: #ff6347;
+  /* nice hover color */
 }
 
 /* On smaller screens show icons instead of text */
@@ -598,12 +600,15 @@ footer .round {
   .nav-text {
     display: none;
   }
+
   .nav-icon {
     display: inline-block;
   }
 }
+
 /* Extra small screens (mobile phones) */
 @media (max-width: 480px) {
+
   .page1 h1,
   .page1 h2,
   .page2 h1,
