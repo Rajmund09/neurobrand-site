@@ -10,7 +10,7 @@ function init() {
     ScrollTrigger.scrollerProxy(".main", {
         scrollTop(value) {
             return arguments.length ? locoScroll.scrollTo(value, 0, 0) : locoScroll.scroll.instance.scroll.y;
-        }, // we don't have to define a scrollLeft because we're only scrolling vertically.
+        }, 
         getBoundingClientRect() {
             return { top: 0, left: 0, width: window.innerWidth, height: window.innerHeight };
         },
@@ -22,7 +22,6 @@ function init() {
 }
 
 init()
-
 var crsr = document.querySelector(".cursor")
 var main = document.querySelector(".main")
 document.addEventListener("mousemove", function (dets) {
@@ -82,7 +81,6 @@ tl3.to(".main", {
     backgroundColor: "#0F0D0D"
 });
 
-// Handle image preview on hover for boxes
 var boxes = document.querySelectorAll(".box");
 boxes.forEach(function (elem) {
     elem.addEventListener("mouseenter", function () {
