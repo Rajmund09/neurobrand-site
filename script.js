@@ -16,12 +16,9 @@ function init() {
         },
         pinType: document.querySelector(".main").style.transform ? "transform" : "fixed"
     });
-
-
     ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
 
     ScrollTrigger.refresh();
-
 }
 
 init()
