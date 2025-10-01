@@ -591,8 +591,8 @@ footer .round {
 
 .nav-text:hover,
 .nav-icon:hover {
-  color: #ff6347;
-  /* nice hover color */
+
+color: antiquewhite;
 }
 
 /* On smaller screens show icons instead of text */
