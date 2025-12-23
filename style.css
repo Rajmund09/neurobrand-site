@@ -509,7 +509,6 @@ footer .round {
 
 /* For small phones */
 @media (max-width: 500px) {
-
   .page1 h1,
   .page1 h2 {
     font-size: 14vw;
