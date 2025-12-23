@@ -592,7 +592,7 @@ footer .round {
 .nav-text:hover,
 .nav-icon:hover {
 
-color: antiquewhite;
+  color: antiquewhite;
 }
 
 /* On smaller screens show icons instead of text */
