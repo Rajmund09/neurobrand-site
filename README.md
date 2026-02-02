@@ -30,3 +30,12 @@ The project focuses on **smooth animations, immersive visuals, and modern UI/UX*
 
 ## 📁 Project Structure
 
+NeuroBrand-Site/
+│
+├── index.html
+├── style.css
+├── script.js
+├── duo_video.mp4
+├── .nojekyll
+└── README.md
+
