@@ -39,3 +39,20 @@ NeuroBrand-Site/
 ├── .nojekyll
 └── README.md
 
+## 🌟 Purpose of This Project
+
+This project was created to:
+
+Practice advanced front-end animations
+
+Build a premium portfolio-level website
+
+Explore AI-themed digital branding concepts
+
+📬 Contact
+
+If you like this project or want to collaborate, feel free to connect 🚀
+Built with ❤️ by Prabhu Shankar Mund
+
+## ⭐ If you found this project helpful, don’t forget to star the repository!
+the word 😄
